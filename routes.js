@@ -1,11 +1,11 @@
 const router = require('express').Router();
-const { getHotel, addHotel, updateHotel, deleteHotel } = require('./controller/hotel.controller.js');
+const { getbook, addbook, updatebook, deletebook } = require('./controller/book.controller.js');
 
 
-router.get('/hotel', getHotel);
-router.post('/hotel',  addHotel);
-router.put('/hotel/:id',  updateHotel);
-router.delete('/hotel/:id', deleteHotel);
+router.get('/hotel', getbook);
+router.post('/hotel',  addbook);
+router.put('/hotel/:id',  updatebook);
+router.delete('/hotel/:id', deletebook);
 
 
 module.exports = router;
