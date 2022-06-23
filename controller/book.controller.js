@@ -1,8 +1,8 @@
 const book = [{
     id: 1,
     bookName: "Shubham",
-    prise: "400",
-    ISBN: 100,
+    prise: 400,
+    ISBN: "100",
     autherName: "Ravikala Suvare",
     publisherName: "Shubham Pangale",
     publishedDate: "22/11/2021",
